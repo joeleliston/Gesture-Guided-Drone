@@ -19,9 +19,11 @@ The model seamlessly integrates key components, including Posecaster, JavaScript
 Posecaster, built on the Mediapipe framework, delivers precise and real-time hand landmark coordinates through a user-friendly interface. It utilizes WebSocket communication (wurl: ws://localhost:44444/) to transmit hand landmarks, making it an efficient solution for applications like interactive systems, games, and drone navigation.
 
 3. JavaScript Code
+   
 The JavaScript code acts as a bridge, facilitating communication between Posecaster and MATLAB. It establishes a WebSocket server, processes received hand pose coordinates, adjusts coordinates, and establishes a TCP connection to relay the data to MATLAB for simulation control.
 
 4. MATLAB Code
+   
 The MATLAB code integrates hand gesture-controlled coordinates into the Simulink model. It handles simulation initialization, communication setup, a control loop for updating coordinates, coordinate adjustment, and simulation step execution. This ensures accurate and responsive control of the simulated drone within the Simulink environment.
 
 5. Simulink
