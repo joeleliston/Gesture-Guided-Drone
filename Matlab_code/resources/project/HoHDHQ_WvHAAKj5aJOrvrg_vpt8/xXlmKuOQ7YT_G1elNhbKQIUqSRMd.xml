@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Info description="This example is the reference model for Module 3: Maneuver the Minidrone for the Minidrone Virtual Lab. It demonstrates how Simulink is used to model the PARROT Mambo Minidrone. &#xa;The algorithm can be directly deployed on the Parrot Mambo hardware using the Simulink Support Package for Parrot Minidrones."/>
